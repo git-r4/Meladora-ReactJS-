@@ -1,0 +1,250 @@
+@media screen and (max-width: 1200px){
+  h1{
+    font-size: 38px !important;
+  }
+  h2{
+    font-size: 20px !important;
+  }
+  p{
+    font-size: 15px !important;
+  }
+  //NavDesktop
+  .nav_navRouter ul li a{
+    padding: 5px 10px !important;
+    font-size: 16px;
+  }
+  //repeatIcon
+  .repeatIconMeladora{
+    background-size: 212px 100px;
+  }
+  //about
+  .aboutImg div img:first-child{
+    width: 100%;
+    height: 100%;
+  }
+  .aboutImg div img:last-child{
+    width: calc(100% - 20%);
+    height: 100%;
+  }
+  //garden
+  .garden_info{
+    li{
+      h1{
+        font-size: 90px !important;
+      }
+    }
+  }
+  //product
+  .products_box_info{
+    div{
+      h1{
+        font-size: 22px !important;
+      }
+    }
+  }
+  //support
+  .support_info{
+    h3{
+      font-size: 16px;
+    }
+  }
+  //footer
+  .footer_info{
+    h3{
+      font-size: 18px;
+    }
+    ul li{
+      font-size: 16px;
+    }
+  }
+}
+@media screen and (min-width: 995px){
+  .galerySliderForMobile{
+    display: none;
+  }
+  .footer_info{
+    justify-content: center;
+  }
+  .nav_navRouterMobile{
+    display: none;
+  }
+
+}
+@media screen and (max-width: 995px){
+  //navbarDesktop
+  .nav{
+    height: 40px !important;
+  }
+  .nav_navRouter {
+    display: none;
+  }
+  .activeNavMobile {
+    visibility: visible !important;
+  }
+  .backImage::after{
+    background-size: 130px 130px;
+    width: 130px;
+    height: 130px;
+    bottom: -50px;
+    right: 100px;
+  }
+  //about
+  .aboutImg div img:last-child{
+    display: none;
+  }
+  .aboutServiceSection{
+    text-align: center;
+    div{
+      justify-content: center;
+    }
+  }
+  .galerySlider{
+    display: none;
+  }
+  .swiper-pagination {
+    z-index: 10;
+    margin: 0 0 10px 0;
+  }
+  //garden
+  .garden_fruitsGroup{
+    display: none;
+  }
+  //service
+  .service_infoImg{
+    img{
+      height: 100%;
+    }
+  }
+
+  //footer
+  .app_footer{
+    margin: 0;
+  }
+  .footer_logo{
+    height: 200px;
+    img{
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+  //After Navbar Background Image
+  .backImage::after{
+    background-image: url("../img/bush.png");
+    background-repeat: no-repeat;
+    background-size: 220px 220px;
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    right: 150px;
+    bottom: -100px;
+    content: "";
+  }
+  //Garden and Service
+  .gardenAndService_row{
+    div:nth-child(1){
+      order: 1;
+    }
+    div:nth-child(2){
+      order: 2;
+    }
+    div:nth-child(3){
+      order: 4;
+    }
+    div:nth-child(4){
+      order: 3;
+      ul{
+        li{
+          text-align: right;
+        }
+      }
+    }
+    div:nth-child(5){
+      order: 5;
+    }
+    div:nth-child(6){
+      order: 6;
+    }
+  }
+  //products
+  .products{
+    &_fruitGroupUpRight{
+      background-image: url("../img/fruitGroup2.png");
+      background-repeat: no-repeat;
+      background-position: right top;
+      right: 80px;
+      top: 50px;
+      width: 100%;
+      height: 200px;
+      position: absolute;
+      z-index: 1;
+    }
+    &_fruitGroupDownLeft{
+      background-image: url("../img/fruitGroup1.png");
+      background-repeat: no-repeat;
+      background-position: left top;
+      left: 80px;
+      width: 80%;
+      height: 200px;
+      position: absolute;
+      z-index: 1;
+    }
+    &_typeList{
+      grid: auto / repeat(5, auto);
+    }
+  }
+  .product_fruitsGroup{
+    background-image: url("../img/fruitGroup2.png"),  url("../img/fruitGroup1.png");
+    background-repeat: no-repeat;
+    background-position: right top, right bottom;
+    right: 80px;
+    top: 50px;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 768px){
+  //products
+  .products_typeList{
+    grid: repeat(2, auto) / repeat(3, auto);
+  }
+}
+@media screen and (max-width: 576px){
+  h1{
+    font-size: 28px !important;
+  }
+  h2{
+    font-size: 18px !important;
+  }
+  p{
+    font-size: 15px !important;
+  }
+  //about
+  .about_part ul li h5{
+    font-size: 10px;
+  }
+  //garden
+  .garden_info li h1{
+    font-size: 60px !important;
+  }
+  //products => product
+  .productFooterImage{
+    display: none !important;
+  }
+}
+@media screen and (max-width: 350px){
+  //products
+  .products_typeList{
+    grid: repeat(2, auto) / repeat(2, auto);
+  }
+  //footer
+  .footer_logo{
+    height: 200px;
+    img{
+      width: 250px;
+    }
+  }
+}
