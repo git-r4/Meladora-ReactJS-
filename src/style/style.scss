@@ -442,6 +442,8 @@ p{
     margin: 0 0 70px 0;
   }
   &_typeList{
+    position: relative;
+    z-index: 10;
     display: grid;
     grid-column-gap: 10px;
     place-content: center;
