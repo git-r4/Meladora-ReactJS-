@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
+import { Pagination } from "swiper/modules";
 
 import "../../../style/swiper-bundle.min.css";
 

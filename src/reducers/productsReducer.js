@@ -13,7 +13,7 @@ const reducer = (state = initialState, action) => {
         case "PRODUCTS_FETCHED":
             return{
                 ...state,
-                products: action.payload,
+                products: Object.values(action.payload),
                 productLoadingStatus: 'idle'
             }
         case "PRODUCTS_FETCHING_ERROR":

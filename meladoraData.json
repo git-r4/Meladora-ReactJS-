@@ -1,74 +1,74 @@
 {
-  "products": [
-    {
+  "products": {
+    "apple": {
       "id": "apple",
       "img": "img/apple.png",
       "name": "Alma",
       "type": "fruit",
       "price": 5
     },
-    {
+    "plum": {
       "id": "plum",
       "img": "img/plum.png",
       "name": "Gavalı",
       "type": "fruit",
       "price": 3
     },
-    {
+    "pear": {
       "id": "pear",
       "img": "img/pear.png",
       "name": "Armud",
       "type": "fruit",
       "price": 6
     },
-    {
+    "cherry": {
       "id": "cherry",
       "img": "img/cherry.png",
       "name": "Gilas",
       "type": "fruit",
       "price": 8
     },
-    {
+    "walnut": {
       "id": "walnut",
       "img": "img/walnut.png",
       "name": "Qoz",
       "type": "other",
       "price": 13
     },
-    {
+    "peach": {
       "id": "peach",
       "img": "img/peach.png",
       "name": "Şaftalı",
       "type": "fruit",
       "price": 6
     },
-    {
+    "wheat": {
       "id": "wheat",
       "img": "img/wheat.png",
       "name": "Taxıl",
       "type": "grain",
       "price": 7
     },
-    {
+    "orange": {
       "id": "orange",
       "img": "img/orange.png",
       "name": "Portağal",
       "type": "fruit",
       "price": 4
     },
-    {
+    "otherThings": {
       "id": "otherThings",
       "img": "img/otherThings.png",
       "name": "Müxtəlif tinglər",
       "type": "other",
       "price": 5
     },
-    {
+    "tomato": {
       "id": "tomato",
       "img": "img/tomato.png",
       "name": "Pomidor",
       "type": "vegetable",
       "price": 3
     }
-  ]
+  }
 }
